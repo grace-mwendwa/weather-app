@@ -7,6 +7,14 @@ button {
   display: block;
   border-radius: 15px;
   margin: 0 auto;
-  color: black;
+  color: bisque;
   background-color: cornflowerblue;
+  padding: 15px;
+  border: 1px solid transparent;
+  transition: all 120ms ease-in-out;
+}
+
+button:hover {
+  background-color: bisque;
+  color: cornflowerblue;
 }
